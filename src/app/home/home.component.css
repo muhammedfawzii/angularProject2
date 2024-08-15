@@ -1,0 +1,20 @@
+img{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+.card{
+    transition: 0.6s;
+    overflow: hidden;
+}
+.card:hover{
+    background-color: green;
+}
+
+button{
+    transform: translateY(100px);
+   
+}
+.card:hover button{
+    transform: translateY(15px);
+}
